@@ -1,9 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package org.example.Vista;
-
 import org.example.Controller.IController;
 import org.example.Model.EmploymentCategory;
 import org.example.Model.Person;
@@ -14,10 +9,6 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 import javax.swing.border.Border;
-
-/**
- * @author a21javierbq
- */
 public class FormPanel extends JPanel {
     JPanel form;
     JLabel nameLab;

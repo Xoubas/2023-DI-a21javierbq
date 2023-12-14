@@ -1,19 +1,10 @@
-import java.awt.BorderLayout;
 import java.awt.FlowLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.text.DateFormat;
 import java.text.NumberFormat;
-import java.util.Formatter;
 import java.util.Locale;
-
 import javax.swing.JButton;
 import javax.swing.JFormattedTextField;
 import javax.swing.JFrame;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
-import javax.swing.JTextField;
-
 /*6. Crea unha aplicación que conteña dous JFormattedTextField coas súas
 correspondentes etiquetas e un botón. Configura unha das caixas de texto para que
 teña números e a outra para que almacene unha data. Inicializa ambas caixas de

@@ -1,14 +1,9 @@
 import java.awt.BorderLayout;
-import java.awt.ComponentOrientation;
 import java.awt.GridLayout;
-import java.awt.TextArea;
-
-import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
-import javax.swing.JTextField;
 
 public class Ex1 extends JFrame {
 	/*
@@ -46,6 +41,8 @@ public class Ex1 extends JFrame {
 		b9 = new JButton("B9");
 		b10 = new JButton("B10");
 		ta = new JTextArea();
+		ta.setWrapStyleWord(true);
+		ta.setLineWrap(true);
 		panl = new JPanel(new GridLayout(5,1));
 		panr = new JPanel(new GridLayout(5,1));
 

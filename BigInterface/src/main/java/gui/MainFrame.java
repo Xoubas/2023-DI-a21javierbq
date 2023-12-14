@@ -36,11 +36,10 @@ public class MainFrame extends JFrame {
         expt.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                int choice = new JFileChooser().showOpenDialog();
+                int choice = new JFileChooser().showOpenDialog(MainFrame.this);
 
             }
         });
-
 
         fileMenu.add(expt);
         fileMenu.add(impt);

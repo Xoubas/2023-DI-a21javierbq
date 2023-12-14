@@ -1,17 +1,10 @@
-import java.awt.FlowLayout;
-import java.awt.GridBagLayout;
-import java.awt.TextField;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.beans.Visibility;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
-import javax.swing.plaf.metal.MetalIconFactory.FolderIcon16;
-import javax.swing.text.Position;
 
 /*
  * 1. Crea un novo frame que conteña dúas caixas de texto, un botón co texto
