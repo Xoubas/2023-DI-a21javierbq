@@ -1,6 +1,7 @@
-com/mycompany/jpanelimage/BackgroundPanel.class
+com/mycompany/jpanelimage/JPanelImageBeanInfo.class
 com/mycompany/jpanelimage/BackgroundPanel$1.class
-JPanelImage.class
 com/mycompany/jpanelimage/BackgroundImagePropertyEditorSupport.class
-com/mycompany/jpanelimage/BackgroundPanel$2.class
 com/mycompany/jpanelimage/BackgroundImage.class
+com/mycompany/jpanelimage/BackgroundPanel.class
+com/mycompany/jpanelimage/JPanelImage.class
+com/mycompany/jpanelimage/BackgroundPanel$2.class

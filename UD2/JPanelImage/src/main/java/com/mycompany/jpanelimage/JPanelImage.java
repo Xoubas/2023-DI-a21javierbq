@@ -1,5 +1,5 @@
+package com.mycompany.jpanelimage;
 
-import com.mycompany.jpanelimage.BackgroundImage;
 import java.awt.AlphaComposite;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
