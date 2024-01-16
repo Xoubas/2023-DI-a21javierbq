@@ -12,7 +12,7 @@ import javax.swing.JPanel;
  *
  * @author a21javierbq
  */
-public class Cor extends JPanel implements Serializable {
+public class Cor implements Serializable {
 
     private Color corTexto;
     private Color corFondo;
