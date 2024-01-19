@@ -20,11 +20,11 @@ public class BackgroundPanel extends javax.swing.JPanel {
         initComponents();
     }
 
-    public BackgroundImage getSelectedValue() {
+    public ImaxeFondo getSelectedValue() {
         File file = new File(fileField.getText());
 // Engádese o f para converter o enteiro a float
         Float opacidade = sliderOpacidade.getValue() / 100f;
-        return new BackgroundImage(file, opacidade);
+        return new ImaxeFondo(file, opacidade);
     }
 
     /**

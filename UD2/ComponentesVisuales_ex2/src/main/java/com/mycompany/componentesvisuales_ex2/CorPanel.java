@@ -4,6 +4,7 @@
  */
 package com.mycompany.componentesvisuales_ex2;
 
+import java.awt.Color;
 import javax.swing.JColorChooser;
 
 /**
@@ -11,6 +12,9 @@ import javax.swing.JColorChooser;
  * @author a21javierbq
  */
 public class CorPanel extends javax.swing.JPanel {
+
+    private Color textoCor;
+    private Color backgroundCor;
 
     /**
      * Creates new form CorTexPanel
@@ -20,7 +24,7 @@ public class CorPanel extends javax.swing.JPanel {
     }
 
     public Cor getSelectedValue() {
-        return null;
+        return new Cor(textoCor, backgroundCor);
     }
 
     /**
@@ -96,10 +100,15 @@ public class CorPanel extends javax.swing.JPanel {
     private void textoBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textoBtnActionPerformed
         JColorChooser cc = new JColorChooser();
         Color color = cc.getColor();
+        textoCor = color;
+        corField.setText("[" + color.getRed() + "," + color.getGreen() + "," + color.getBlue() + "]");
     }//GEN-LAST:event_textoBtnActionPerformed
 
     private void corBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_corBtnActionPerformed
-        // TODO add your handling code here:
+        JColorChooser cc = new JColorChooser();
+        Color color = cc.getColor();
+        backgroundCor = color;
+        textoField.setText("[" + color.getRed() + "," + color.getGreen() + "," + color.getBlue() + "]");
     }//GEN-LAST:event_corBtnActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

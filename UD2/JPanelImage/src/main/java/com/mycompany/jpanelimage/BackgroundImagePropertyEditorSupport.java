@@ -32,7 +32,7 @@ public class BackgroundImagePropertyEditorSupport extends PropertyEditorSupport 
 
     @Override
     public String getJavaInitializationString() {
-        BackgroundImage imaxeFondo = backgroundPanel.getSelectedValue();
+        ImaxeFondo imaxeFondo = backgroundPanel.getSelectedValue();
         return "new com.mycompany.jpanelimage.BackgroundImage(" + "new java.io.File(\""
                 + imaxeFondo.getFicheroImagen().getAbsolutePath() + "\"), " + imaxeFondo.getOpacidad()
                 + "f)";

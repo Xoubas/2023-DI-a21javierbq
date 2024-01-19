@@ -6,7 +6,6 @@ package com.mycompany.componentesvisuales_ex2;
 
 import java.awt.Color;
 import java.io.Serializable;
-import javax.swing.JPanel;
 
 /**
  *
@@ -18,6 +17,11 @@ public class Cor implements Serializable {
     private Color corFondo;
 
     public Cor() {
+    }
+
+    public Cor(Color corTexto, Color corFondo) {
+        this.corTexto = corTexto;
+        this.corFondo = corFondo;
     }
 
     public Color getCorTexto() {

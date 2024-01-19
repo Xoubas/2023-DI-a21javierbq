@@ -13,26 +13,33 @@ import java.beans.PropertyEditorSupport;
  */
 public class CorTexButtonPropertyEditorSupport extends PropertyEditorSupport {
 
-    CorTexButton corTexButton = new CorTexButton();
+    CorPanel corPanel = new CorPanel();
 
     @Override
+
     public boolean supportsCustomEditor() {
         return true;
     }
 
     @Override
     public Component getCustomEditor() {
-        return corTexButton;
-    }
-
-    @Override
-    public String getJavaInitializationString() {
-        return super.getJavaInitializationString(); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
+        return corPanel;
     }
 
     @Override
     public Object getValue() {
-        return super.getValue(); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
+        return corPanel.getSelectedValue();
+    }
+
+    /*
+    Terminar de hacer las rutas
+     */
+    @Override
+    public String getJavaInitializationString() {
+        Cor cor = corPanel.getSelectedValue();
+        return "new com.mycompany.componentesvisuales_ex2.CorTexButton(" + "new java.awt.Color(\""
+                + cor.getCorTexto() + "\"), " + cor.getCorFondo()
+                + "f)";
     }
 
 }

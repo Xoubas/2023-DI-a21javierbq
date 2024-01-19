@@ -11,15 +11,15 @@ import java.io.Serializable;
  *
  * @author a21javierbq
  */
-public class BackgroundImage implements Serializable {
+public class ImaxeFondo implements Serializable {
 
     private File ficheroImagen;
     private float opacidad;
 
-    public BackgroundImage() {
+    public ImaxeFondo() {
     }
 
-    public BackgroundImage(File ficheroImagen, float opacidad) {
+    public ImaxeFondo(File ficheroImagen, float opacidad) {
         this.ficheroImagen = ficheroImagen;
         this.opacidad = opacidad;
     }
