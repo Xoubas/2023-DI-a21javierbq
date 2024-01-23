@@ -11,9 +11,9 @@ import java.beans.PropertyEditorSupport;
  *
  * @author a21javierbq
  */
-public class CorTexButtonPropertyEditorSupport extends PropertyEditorSupport {
+public class BotonPersonalizadoPropertyEditorSupport extends PropertyEditorSupport {
 
-    CorPanel corPanel = new CorPanel();
+    CorPropertyPanel corPanel = new CorPropertyPanel();
 
     @Override
 
@@ -36,10 +36,10 @@ public class CorTexButtonPropertyEditorSupport extends PropertyEditorSupport {
      */
     @Override
     public String getJavaInitializationString() {
-        Cor cor = corPanel.getSelectedValue();
-        return "new com.mycompany.componentesvisuales_ex2.CorTexButton(" + "new java.awt.Color(\""
-                + cor.getCorTexto() + "\"), " + cor.getCorFondo()
-                + "f)";
+        CorAttribute cor = corPanel.getSelectedValue();
+        return "new com.mycompany.componentesvisuales_ex2.CorAttribute(" + "new java.awt.Color("
+                + cor.getCorFondo().getRGB() + "), " + "new java.awt.Color(" + cor.getCorTexto().getRGB() + ") "
+                + ")";
     }
 
 }

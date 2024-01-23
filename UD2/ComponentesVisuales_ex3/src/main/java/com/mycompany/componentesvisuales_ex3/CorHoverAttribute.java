@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.componentesvisuales_ex2;
+package com.mycompany.componentesvisuales_ex3;
 
 import java.awt.Color;
 import java.io.Serializable;
@@ -11,15 +11,15 @@ import java.io.Serializable;
  *
  * @author a21javierbq
  */
-public class Cor implements Serializable {
+public class CorHoverAttribute implements Serializable {
 
     private Color corTexto;
     private Color corFondo;
 
-    public Cor() {
+    public CorHoverAttribute() {
     }
 
-    public Cor(Color corTexto, Color corFondo) {
+    public CorHoverAttribute(Color corTexto, Color corFondo) {
         this.corTexto = corTexto;
         this.corFondo = corFondo;
     }

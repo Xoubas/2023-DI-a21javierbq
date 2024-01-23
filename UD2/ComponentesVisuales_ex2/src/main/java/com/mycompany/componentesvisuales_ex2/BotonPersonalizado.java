@@ -11,20 +11,21 @@ import javax.swing.JButton;
  *
  * @author a21javierbq
  */
-public class CorTexButton extends JButton implements Serializable {
+public class BotonPersonalizado extends JButton implements Serializable {
 
-    Cor cor;
+    CorAttribute cor;
 
-    public CorTexButton() {
-
+    public BotonPersonalizado() {
     }
 
-    public Cor getCor() {
+    public CorAttribute getCor() {
         return cor;
     }
 
-    public void setCor(Cor cor) {
+    public void setCor(CorAttribute cor) {
         this.cor = cor;
+        setBackground(cor.getCorFondo());
+        setForeground(cor.getCorTexto());
     }
 
     public void changeBackground() {

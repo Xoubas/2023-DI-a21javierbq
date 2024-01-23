@@ -11,7 +11,7 @@ import javax.swing.JColorChooser;
  *
  * @author a21javierbq
  */
-public class CorPanel extends javax.swing.JPanel {
+public class CorPropertyPanel extends javax.swing.JPanel {
 
     private Color textoCor;
     private Color backgroundCor;
@@ -19,12 +19,12 @@ public class CorPanel extends javax.swing.JPanel {
     /**
      * Creates new form CorTexPanel
      */
-    public CorPanel() {
+    public CorPropertyPanel() {
         initComponents();
     }
 
-    public Cor getSelectedValue() {
-        return new Cor(textoCor, backgroundCor);
+    public CorAttribute getSelectedValue() {
+        return new CorAttribute(textoCor, backgroundCor);
     }
 
     /**
@@ -36,24 +36,36 @@ public class CorPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        corBtn = new javax.swing.JButton();
+        jDesktopPane1 = new javax.swing.JDesktopPane();
         textoBtn = new javax.swing.JButton();
+        backgroundBtn = new javax.swing.JButton();
         corField = new javax.swing.JTextField();
         textoField = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
-        corBtn.setText("...");
-        corBtn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                corBtnActionPerformed(evt);
-            }
-        });
+        javax.swing.GroupLayout jDesktopPane1Layout = new javax.swing.GroupLayout(jDesktopPane1);
+        jDesktopPane1.setLayout(jDesktopPane1Layout);
+        jDesktopPane1Layout.setHorizontalGroup(
+            jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
+        );
+        jDesktopPane1Layout.setVerticalGroup(
+            jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
+        );
 
         textoBtn.setText("...");
         textoBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 textoBtnActionPerformed(evt);
+            }
+        });
+
+        backgroundBtn.setText("...");
+        backgroundBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                backgroundBtnActionPerformed(evt);
             }
         });
 
@@ -76,8 +88,8 @@ public class CorPanel extends javax.swing.JPanel {
                     .addComponent(corField))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(textoBtn)
-                    .addComponent(corBtn))
+                    .addComponent(backgroundBtn)
+                    .addComponent(textoBtn))
                 .addGap(44, 44, 44))
         );
         layout.setVerticalGroup(
@@ -85,35 +97,34 @@ public class CorPanel extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(35, 35, 35)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(corBtn)
+                    .addComponent(textoBtn)
                     .addComponent(corField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel1))
                 .addGap(61, 61, 61)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(textoBtn)
+                    .addComponent(backgroundBtn)
                     .addComponent(textoField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel2))
                 .addContainerGap(34, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void textoBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textoBtnActionPerformed
-        JColorChooser cc = new JColorChooser();
-        Color color = cc.getColor();
+    private void backgroundBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backgroundBtnActionPerformed
+        Color color = JColorChooser.showDialog(backgroundBtn, "Seleciona a cor de fondo", Color.BLACK);
         textoCor = color;
         corField.setText("[" + color.getRed() + "," + color.getGreen() + "," + color.getBlue() + "]");
-    }//GEN-LAST:event_textoBtnActionPerformed
+    }//GEN-LAST:event_backgroundBtnActionPerformed
 
-    private void corBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_corBtnActionPerformed
-        JColorChooser cc = new JColorChooser();
-        Color color = cc.getColor();
+    private void textoBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textoBtnActionPerformed
+        Color color = JColorChooser.showDialog(textoBtn, "Seleciona a cor de fondo", Color.BLACK);
         backgroundCor = color;
         textoField.setText("[" + color.getRed() + "," + color.getGreen() + "," + color.getBlue() + "]");
-    }//GEN-LAST:event_corBtnActionPerformed
+    }//GEN-LAST:event_textoBtnActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton corBtn;
+    private javax.swing.JButton backgroundBtn;
     private javax.swing.JTextField corField;
+    private javax.swing.JDesktopPane jDesktopPane1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JButton textoBtn;
