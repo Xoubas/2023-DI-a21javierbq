@@ -1,0 +1,19 @@
+{
+  "name": "Beans",
+  "version": "0.0.1",
+  "description": "How to make beans in NetBeans",
+  "main": "index.js",
+  "authors": {
+    "name": "Javier Bayón Quintas",
+    "email": "a21javierbq@iessanclemente.net"
+  },
+  "repository": "/Beans",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}

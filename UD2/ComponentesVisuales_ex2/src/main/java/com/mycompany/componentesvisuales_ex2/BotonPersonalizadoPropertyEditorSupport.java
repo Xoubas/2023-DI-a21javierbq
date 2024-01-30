@@ -38,7 +38,7 @@ public class BotonPersonalizadoPropertyEditorSupport extends PropertyEditorSuppo
     public String getJavaInitializationString() {
         CorAttribute cor = corPanel.getSelectedValue();
         return "new com.mycompany.componentesvisuales_ex2.CorAttribute(" + "new java.awt.Color("
-                + cor.getCorFondo().getRGB() + "), " + "new java.awt.Color(" + cor.getCorTexto().getRGB() + ") "
+                + cor.getCorTexto().getRGB() + "), " + "new java.awt.Color(" + cor.getCorFondo().getRGB() + ") "
                 + ")";
     }
 
