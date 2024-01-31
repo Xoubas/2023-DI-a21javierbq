@@ -5,8 +5,7 @@
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="DataAdapter.jrdax"/>
 	<parameter name="price" class="java.lang.String"/>
 	<queryString language="SQL">
-		<![CDATA[select * from products where price < $P{price}
-]]>
+		<![CDATA[select * from products where price < $P{price}]]>
 	</queryString>
 	<field name="PRODUCTID" class="java.lang.Integer">
 		<property name="com.jaspersoft.studio.field.name" value="PRODUCTID"/>
@@ -38,6 +37,9 @@
 		<property name="com.jaspersoft.studio.field.label" value="PRICE"/>
 		<property name="com.jaspersoft.studio.field.tree.path" value="PRODUCTS"/>
 	</field>
+	<variable name="PRICE1" class="java.math.BigDecimal" resetType="Page" calculation="Highest">
+		<variableExpression><![CDATA[$F{PRICE}]]></variableExpression>
+	</variable>
 	<background>
 		<band splitType="Stretch"/>
 	</background>
@@ -48,21 +50,21 @@
 		<band height="35" splitType="Stretch"/>
 	</pageHeader>
 	<columnHeader>
-		<band height="61" splitType="Stretch">
+		<band height="37" splitType="Stretch">
 			<staticText>
-				<reportElement x="6" y="0" width="100" height="30" uuid="32b0350e-79c5-4610-8ab0-b6991aedd4fe">
+				<reportElement x="0" y="0" width="100" height="30" uuid="32b0350e-79c5-4610-8ab0-b6991aedd4fe">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9203e6d3-088c-4f94-8a97-db573f928ece"/>
 				</reportElement>
 				<text><![CDATA[PRODUCTNAME]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="141" y="0" width="100" height="30" uuid="6ca2e510-99df-4479-a5f7-b83d6b74c9cb">
+				<reportElement x="130" y="0" width="100" height="30" uuid="6ca2e510-99df-4479-a5f7-b83d6b74c9cb">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6f40deae-0988-41b9-96ea-9720eff92349"/>
 				</reportElement>
 				<text><![CDATA[UNIT]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="284" y="0" width="100" height="30" uuid="f955e986-aaa3-4b84-b5fc-e20899c27cd8">
+				<reportElement x="270" y="0" width="100" height="30" uuid="f955e986-aaa3-4b84-b5fc-e20899c27cd8">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="67044e0a-274b-42ea-9845-712507d9b02f"/>
 				</reportElement>
 				<text><![CDATA[PRICE]]></text>
@@ -70,21 +72,21 @@
 		</band>
 	</columnHeader>
 	<detail>
-		<band height="125" splitType="Stretch">
+		<band height="70" splitType="Stretch">
 			<textField>
-				<reportElement x="6" y="23" width="100" height="30" uuid="b4d6b824-a1d9-4c59-bf77-ecec7680ea57">
+				<reportElement x="0" y="20" width="100" height="30" uuid="b4d6b824-a1d9-4c59-bf77-ecec7680ea57">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9203e6d3-088c-4f94-8a97-db573f928ece"/>
 				</reportElement>
 				<textFieldExpression><![CDATA[$F{PRODUCTNAME}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="140" y="23" width="100" height="30" uuid="3cdcb25c-1322-4440-ba95-dffcb62974e7">
+				<reportElement x="130" y="20" width="100" height="30" uuid="3cdcb25c-1322-4440-ba95-dffcb62974e7">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6f40deae-0988-41b9-96ea-9720eff92349"/>
 				</reportElement>
 				<textFieldExpression><![CDATA[$F{UNIT}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="290" y="23" width="100" height="30" uuid="47bc93ad-87c3-4e77-bf59-12aad4ef7d01">
+				<reportElement x="270" y="20" width="100" height="30" uuid="47bc93ad-87c3-4e77-bf59-12aad4ef7d01">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="67044e0a-274b-42ea-9845-712507d9b02f"/>
 				</reportElement>
 				<textFieldExpression><![CDATA[$F{PRICE}]]></textFieldExpression>
