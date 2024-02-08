@@ -6,10 +6,10 @@ actionText: Introduction →
 actionLink: /guide/
 features:
 - title: Create beans
-  details: Feature 1 Description
+  details: How to create a bean
 - title: Use beans
-  details: Feature 2 Description
+  details: How to use previously created beans
 - title: Personalized properties
-  details: Feature 3 Description
+  details: Create personalized property editors
 footer: Made by Javier Bayón Quintas with ❤️
 ---

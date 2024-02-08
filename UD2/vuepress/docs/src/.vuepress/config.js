@@ -53,6 +53,7 @@ module.exports = {
           collapsable: false,
           children: [
             '',
+            'createBean',
             'using-vue',
           ]
         }
