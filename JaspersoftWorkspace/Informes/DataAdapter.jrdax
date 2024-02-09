@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
-  <name>New Data Adapter 1</name>
-  <driver>org.h2.Driver</driver>
+  <name>northwind_DB</name>
+  <driver>org.hsqldb.jdbcDriver</driver>
   <username></username>
   <password></password>
-  <url>jdbc:h2:/home/sanclemente.local/a21javierbq/Escritorio/northwind</url>
+  <url>jdbc:hsqldb:[PATH_TO_DB_FILES]/database</url>
   <database></database>
   <savePassword>true</savePassword>
   <serverAddress></serverAddress>
