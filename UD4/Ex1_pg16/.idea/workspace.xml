@@ -5,9 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1397372-bd5c-45e7-90b0-2203d43a3513" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/src/main/java/com/example/ex1_pg11/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/src/main/java/com/example/ex1_pg11/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/src/main/resources/com/example/ex1_pg11/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/src/main/java/com/example/ex2_pg12/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/src/main/java/com/example/ex2_pg12/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/src/main/resources/com/example/ex2_pg12/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +46,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2cVd6oy2ljSL7hcKaQaeLfp3Jw0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,9 +62,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/media/MV-Linux/MaquinasVirtuais/a21javierbq/GitJavi/UD4/Ex1_pg16"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-20.0.2-corretto-20.0.2.1-4caba194b151-96d4b369" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
