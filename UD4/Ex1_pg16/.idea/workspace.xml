@@ -5,31 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1397372-bd5c-45e7-90b0-2203d43a3513" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/src/main/java/com/example/ex1_pg11/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/src/main/java/com/example/ex1_pg11/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex1_pg11/src/main/resources/com/example/ex1_pg11/hello-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/src/main/java/com/example/ex2_pg12/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/src/main/java/com/example/ex2_pg12/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD3/Ex2_pg12/src/main/resources/com/example/ex2_pg12/hello-view.fxml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex3_pg16/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex1_pg26/src/main/java/com/example/ex1_pg26/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1_pg26/src/main/java/com/example/ex1_pg26/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex1_pg26/src/main/java/com/example/ex1_pg26/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1_pg26/src/main/java/com/example/ex1_pg26/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex1_pg26/src/main/resources/com/example/ex1_pg26/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1_pg26/src/main/resources/com/example/ex1_pg26/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex3_pg16/src/main/java/com/example/ex3_pg16/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex3_pg16/src/main/java/com/example/ex3_pg16/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex4_pg12/src/main/java/com/example/ex4_pg12/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex4_pg12/src/main/java/com/example/ex4_pg12/HelloApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +45,29 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/media/MV-Linux/MaquinasVirtuais/a21javierbq/GitJavi/UD4/Ex1_pg16"
+    "last_opened_file_path": "/media/MV-Linux/MaquinasVirtuais/a21javierbq/GitJavi/UD4/Ex3_pg16"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ex1_pg16.HelloApplication" />
+      <module name="Ex1_pg16" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ex1_pg16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

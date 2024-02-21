@@ -12,16 +12,21 @@
     </padding>
 
     <left>
-        <StackPane fx:id="leftPane"></StackPane>
-        <Button fx:id="b1">B1</Button>
+        <StackPane fx:id="leftPane" alignment="CENTER">
+            <Button fx:id="b1" >B1</Button>
+        </StackPane>
     </left>
     <center>
-        <Button fx:id="b2">B2</Button>
+        <StackPane fx:id="centerPane" alignment="CENTER">
+            <Button fx:id="b2">B2</Button>
+        </StackPane>
     </center>
     <right>
-        <Button fx:id="b3">B3</Button>
+        <StackPane fx:id="rightPane" alignment="CENTER">
+            <Button fx:id="b3">B3</Button>
+        </StackPane>
     </right>
-
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
+<bottom>
+    <Label fx:id="eventCheck"/>
+</bottom>
 </BorderPane>

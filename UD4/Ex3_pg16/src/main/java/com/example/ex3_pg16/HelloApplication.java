@@ -30,7 +30,7 @@ public class HelloApplication extends Application {
         centerPane.setAlignment(Pos.CENTER);
         rightPane.setAlignment(Pos.CENTER);
 
-        pane.setLeft(leftPane).setAl;
+        pane.setLeft(leftPane);
         pane.setCenter(centerPane);
         pane.setRight(rightPane);
         pane.setBottom(eventCheck);

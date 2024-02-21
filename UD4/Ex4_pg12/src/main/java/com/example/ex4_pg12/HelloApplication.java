@@ -9,6 +9,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
+import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -41,8 +42,12 @@ public class HelloApplication extends Application {
         grid.setAlignment(Pos.CENTER);
 
         grid.getChildren().addAll(title, userNameLabel, userTextField, passwordLabel, passTextField, loginButton);
+        title.setFont(new Font("Arial Bold",30));
+        title.setStyle("-fx-text-fill: blue;");
 
-        Scene scene = new Scene(grid, 320, 240);
+        Scene scene = new Scene(grid, 400, 240);
+        stage.setMinHeight(200);
+        stage.setMinWidth(320);
         stage.setTitle("Login");
         stage.setScene(scene);
         stage.show();

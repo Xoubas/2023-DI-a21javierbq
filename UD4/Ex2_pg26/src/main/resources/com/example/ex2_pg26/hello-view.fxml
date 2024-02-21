@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.MenuItem?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.ex2_pg26.HelloController">
+    <TextArea fx:id="textArea">
+        <contextMenu>
+            <ContextMenu fx:id="contextMenu">
+                <items>
+                    <MenuItem fx:id="increaseFont" text="Increase font"/>
+                    <MenuItem fx:id="toUppercase" text="Uppercase"/>
+                </items>
+            </ContextMenu>
+        </contextMenu>
+    </TextArea>
+</VBox>
