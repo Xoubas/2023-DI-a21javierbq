@@ -19,6 +19,7 @@ public class HelloApplication extends Application {
         HBox hbox = new HBox();
         hbox.setPadding(new Insets(10));
         hbox.setAlignment(Pos.CENTER);
+        hbox.setSpacing(10);
         Label label1 = new Label("_A");
         TextField textField1 = new TextField();
         Label label2 = new Label("_B");
