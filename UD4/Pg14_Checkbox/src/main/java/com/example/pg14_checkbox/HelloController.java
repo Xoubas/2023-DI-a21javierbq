@@ -20,14 +20,11 @@ public class HelloController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        checkBox.selectedProperty().addListener(new ChangeListener<Boolean>() {
-            @Override
-            public void changed(ObservableValue<? extends Boolean> observableValue, Boolean oldvalue, Boolean newValue) {
-                if (newValue)
-                    label.setText("Selected");
-                else
-                    label.setText("Not Selected");
-            }
+        checkBox.selectedProperty().addListener((observable, oldValue, newValue) -> {
+            if (newValue)
+                label.setText("Selected");
+            else
+                label.setText("Not Selected");
         });
     }
 }

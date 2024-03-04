@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.control.TextField?>
-
-<GridPane alignment="CENTER" hgap="10" vgap="15" xmlns:fx="http://javafx.com/fxml"
-          fx:controller="com.example.pg14_textfield.HelloController">
+<GridPane xmlns:fx="http://javafx.com/fxml" vgap="5" hgap="5"
+          fx:controller="com.example.pg14_textfield.HelloController" alignment="CENTER">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
 
-    <!-- Nome Label aligned to the RIGHT -->
-    <Label fx:id="nome" text="_Nome:" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.halignment="RIGHT"
-           mnemonicParsing="true"/>
+    <Label fx:id="nome" text="_nome" GridPane.columnIndex="0" GridPane.rowIndex="0" mnemonicParsing="true"/>
+    <Label fx:id="enderezo" text="_enderezo" GridPane.columnIndex="0" GridPane.rowIndex="1" mnemonicParsing="true"/>
+    <Label fx:id="ocupacion" text="_ocupación" GridPane.columnIndex="0" GridPane.rowIndex="2" mnemonicParsing="true"/>
     <TextField fx:id="tf1" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
-    <Label fx:id="enderezo" text="_Enderezo:" GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.halignment="RIGHT"
-           mnemonicParsing="true"/>
     <TextField fx:id="tf2" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
-    <Label fx:id="ocupacion" text="_Ocupación:" GridPane.columnIndex="0" GridPane.rowIndex="2"
-           GridPane.halignment="RIGHT" mnemonicParsing="true"/>
     <TextField fx:id="tf3" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
-
 </GridPane>
