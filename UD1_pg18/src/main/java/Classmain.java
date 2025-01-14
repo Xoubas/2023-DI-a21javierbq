@@ -4,8 +4,8 @@ public class Classmain {
 //		Ex2 counter = new Ex2();
 //		Ex3 psw = new Ex3();
 //		Ex4 textA = new Ex4();
-//		Ex5 taf = new Ex5();
+		Ex5 taf = new Ex5();
 //		Ex6 ftf = new Ex6();
-		Ex7 postalCode = new Ex7();
+//		Ex7 postalCode = new Ex7();
 	}
 }

@@ -11,7 +11,5 @@ import java.util.EventListener;
  * @author a21gonzalocm
  */
 public interface StringListener extends EventListener {
-
     public void textEmitted(StringEvent e);
-
 }

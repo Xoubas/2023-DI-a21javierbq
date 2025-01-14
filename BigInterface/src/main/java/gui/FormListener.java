@@ -11,7 +11,5 @@ import java.util.EventListener;
  * @author a21gonzalocm
  */
 public interface FormListener extends EventListener {
-
     public void dataFormEmitted(FormEvent e);
-
 }

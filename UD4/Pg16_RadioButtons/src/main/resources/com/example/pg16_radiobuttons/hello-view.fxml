@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.RadioButton?>
+<VBox alignment="TOP_LEFT" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.pg16_radiobuttons.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <!-- Botones de radio sin el atributo onAction -->
+    <RadioButton text="Opción 1" fx:id="opcion1"/>
+    <RadioButton text="Opción 2" fx:id="opcion2"/>
+    <RadioButton text="Opción 3" fx:id="opcion3"/>
+
+    <Label fx:id="label"/>
+
+    <Label fx:id="etiquetaInformacion" text="Selecciona una opción"/>
+</VBox>
